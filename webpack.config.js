@@ -30,9 +30,8 @@ let config = {
     ],
     devServer: {
         port: 9000,
-        contentBase: path.resolve('dist'),
-        watchContentBase: true,
-        writeToDisk: true
+        contentBase: path.resolve('src'),
+        watchContentBase: true
     },
     resolve: {
         extensions: ['.js', '.ts', '.tsx']
